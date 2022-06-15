@@ -1,0 +1,9 @@
+{
+    "CAPM_SYN_SYN_MARA": {
+        "target": {
+            "object": "MARA",
+            "schema.configure": "logical-hana_syn-grantor/schema"
+        }        
+    }
+
+}
