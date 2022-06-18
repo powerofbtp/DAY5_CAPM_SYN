@@ -17,3 +17,12 @@ view v_materials as
     key matnr as matnr,
         ernam as ernam
     from syn_MARA;
+
+@cds.persistence.exists
+entity syn_EMPLOYEES {
+  key personid : Integer;
+  firstname  : String(255);
+  lastname  : String(255);
+  address  : String(255);
+  phone  : String(15);
+}
